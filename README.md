@@ -1,2 +1,2 @@
-# cardhouse
-Test ansible playbook on multiple Linux distros
+# CardHouse
+Weekend project to learn GoLang and DevOps

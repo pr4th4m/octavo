@@ -5,8 +5,6 @@ import (
 	"github.com/codegangsta/cli"
 	"log"
 	"os"
-
-	"github.com/pratz/cardhouse/config"
 )
 
 // SupportedOS to build infrastructure
@@ -61,14 +59,6 @@ func main() {
 		}
 
 		fmt.Println(selectedOS)
-
-		// fix this to take relative path
-		userConfig, err := config.LoadConfig("/home/pratz/.cardhouse/config.yaml")
-		if err != nil {
-			log.Fatal(err)
-		}
-
-		fmt.Println(userConfig.Remotes["default"])
 
 		return nil
 	}
