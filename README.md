@@ -1,2 +1,2 @@
-# CardHouse
-Weekend project to learn GoLang and DevOps
+#### Octavo
+Organize, sync, tag and search Github gists
